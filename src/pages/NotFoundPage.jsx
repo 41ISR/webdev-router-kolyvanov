@@ -10,7 +10,7 @@ export default function NotFoundPage() {
         title="Такой страницы нет"
         subtitle={`Путь не совпал ни с одним маршрутом.`}
         actionLabel="Вернуться на главную"
-        onAction={() => navigate(-1)}
+        onAction={() => navigate('/')}
       />
     </section>
   );
